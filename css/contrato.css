@@ -1,0 +1,24 @@
+@import './global.css';
+
+.A4 {
+    width: 794px;
+    height: 1123px;
+    background: var(--A4-nomal);
+}
+
+.A4 h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nomePrestador {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 2rem;
+    text-align: justify;
+    line-height: 2rem;
+}
