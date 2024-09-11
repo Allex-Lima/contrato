@@ -11,10 +11,11 @@
     margin-top: 2rem;
 }
 
-.nomePrestador {
+span {
     font-size: 1.3rem;
     font-weight: bold;
 }
+
 
 p {
     font-size: 1.2rem;

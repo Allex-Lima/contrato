@@ -4,12 +4,23 @@ const btnEnviar = document.getElementById('enviar')
 const envairContrato = (event) => {
     event.preventDefault()
 
-    let inputServico = document.getElementById('inputServico').value
-    let inputNomePrestador = document.getElementById('inputNomePrestador').value
+    const inputServico = document.getElementById('inputServico').value
+    const inputNomePrestador = document.getElementById('inputNomePrestador').value
+    const inputCNPJ = document.getElementById('inputCNPJ').value
+
+    const inputRua = document.getElementById('inputRua').value
+    const inputBairro = document.getElementById('inputBairro').value
+    const inputCidade = document.getElementById('inputCidade').value
+    const inputCEP = document.getElementById('inputCEP').value
 
     const dados = {
         servico: inputServico,
-        prestador: inputNomePrestador
+        prestador: inputNomePrestador,
+        cnpj: inputCNPJ,
+        rua: inputRua,
+        bairro: inputBairro,
+        cidade: inputCidade,
+        cep: inputCEP,
     }
 
     localStorage.setItem('dados', JSON.stringify(dados))

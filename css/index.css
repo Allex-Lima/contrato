@@ -38,3 +38,15 @@
     background: LightSeaGreen	;
 
 }
+
+.endereco {
+    width: 100%;    
+    text-align: right;
+}
+
+.spanEndereco { }
+
+.endereco .inputEndereco {
+    text-align: center;
+    width: 20rem;
+}
